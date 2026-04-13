@@ -101,9 +101,10 @@
 <div class="container">
 
     <!-- Clickable Profile Picture -->
-    <a href="https://www.facebook.com/profile.php?id=100076163417522" target="_blank">
-    <img src="profile.jpg" width="150">
+    <a href="https://www.facebook.com/mattew.allado" target="_blank">
+    <img src="profile.jpg" width="150" style="border-radius:50%; border:3px solid #333;">
 </a>
+
 
     <!-- About Section -->
     <section id="about">
