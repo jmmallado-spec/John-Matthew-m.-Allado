@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Personal Profile</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            padding: 15px;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #555;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            margin: 10px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: yellow;
+        }
+
+        .container {
+            padding: 20px;
+        }
+
+        img {
+            display: block;
+            margin: auto;
+            border-radius: 50%;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        table, th, td {
+            border: 1px solid black;
+        }
+
+        th {
+            background-color: #333;
+            color: white;
+        }
+
+        th, td {
+            padding: 10px;
+            text-align: center;
+        }
+
+        form {
+            margin-top: 20px;
+        }
+
+        input, textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 5px 0;
+        }
+
+        input[type="submit"] {
+            background-color: #333;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #555;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>John Matthew M. Allado</h1>
+</header>
+
+<nav>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<div class="container">
+
+    <!-- Clickable Profile Picture -->
+    <a href="https://facebook.com/yourprofile" target="_blank">
+        <img src="profile.jpg" alt="John Matthew Profile" width="150" style="border-radius:50%; border:3px solid #333;">
+    </a>
+
+    <!-- About Section -->
+    <section id="about">
+        <h2>About Me</h2>
+        <p>
+            Hi! I am John Matthew. I enjoy playing online games, cooking,
+            watching movies, and working out at home.
+        </p>
+    </section>
+
+    <!-- Skills Table -->
+    <section id="skills">
+        <h2>My Skills</h2>
+        <table>
+            <tr>
+                <th>Skill</th>
+                <th>Level</th>
+            </tr>
+            <tr>
+                <td>HTML</td>
+                <td>Beginner</td>
+            </tr>
+            <tr>
+                <td>Gaming</td>
+                <td>Advanced</td>
+            </tr>
+            <tr>
+                <td>Cooking</td>
+                <td>Intermediate</td>
+            </tr>
+        </table>
+    </section>
+
+    <!-- Contact Form -->
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form>
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" required></textarea>
+            <input type="submit" value="Send">
+        </form>
+    </section>
+
+</div>
+
+</body>
+</html>
